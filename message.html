@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mini Message Viewer</title>
+  <link rel="stylesheet" href="message.css">
+</head>
+<body>
+  <div class="content-container">
+    <div class="content-box">
+      <h1>TEXT MESSAGE</h1>
+      <h2>Enter a message</h2>
+      <input id="t" type="text" > 
+      <button onclick="myFunction()">Submit</button> 
+      <h2 id="msg"></h2>  
+      <h3><p>
+        “The life you live will be enrich 
+        with every journey you made.”
+      </p></h3>
+    </div>
+    
+  </div>
+  
+  <script> 
+  function myFunction() { 
+     let text = document.getElementById("t").value; 
+     document.getElementById("msg").innerHTML = text; 
+  } 
+  </script> 
+</body>
+</html>

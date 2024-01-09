@@ -1,0 +1,45 @@
+
+body {
+    align-items: center;
+    padding: auto;
+    padding: 500px;
+    text-align: center;
+    background-color: azure;
+    color:mediumvioletred;
+    background-image: url('https://as2.ftcdn.net/v2/jpg/02/02/12/91/1000_F_202129141_3uRMkYySlPs7NXTGL6A1uVnAS7BrNZnG.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+button{
+    background-color:oldlace;
+    height: 35px;
+    width: 60px;
+    border-radius: 20%;
+    border: 2px solid palevioletred;
+    color:black;
+}
+input{
+    background-color:whitesmoke;
+    height: 35px;
+    width: 200px;
+    border-radius: 20%;
+    border: 2px solid palevioletred;
+    color:black;
+}
+.content-box{
+    background-color: aliceblue;
+    text-align: center;
+    width: 300px;
+    padding: 50px;
+    border-radius: 20px;
+    text-align: center;
+
+    
+}
+
+h3{
+    padding: 10%;
+    color:mediumvioletred;
+    align-content: center;
+}
